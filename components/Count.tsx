@@ -12,7 +12,6 @@ const Count = () => {
     <View>
       <Button title='+' onPress={() => setCount((c: number) => c + 1)} />
       <Text>Count : { count }</Text>
-
     </View>
   );
 };
