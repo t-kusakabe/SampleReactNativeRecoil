@@ -10,7 +10,7 @@ const Count = () => {
 
   return (
     <View>
-      <Button title='+' onPress={() => setCount((c: number) => c + 1)} />
+      <Button title='+' onPress={() => setCount((c: number) => c)} />
       <Text>Count : { count }</Text>
     </View>
   );
